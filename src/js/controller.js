@@ -41,6 +41,10 @@ class Controller {
             this.player.toggle();
         });
 
+        this.player.template.BPlayButton.addEventListener('click', () => {
+            this.player.toggle();
+        });
+
         this.player.template.mobilePlayButton.addEventListener('click', () => {
             this.player.toggle();
         });

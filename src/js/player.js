@@ -223,7 +223,7 @@ class DPlayer {
         }
 
         this.template.playButton.innerHTML = Icons.play;
-        this.template.mobilePlayButton.innerHTML = Icons.play;
+        this.template.mobilePlayButton.innerHTML = '';
         if (!fromNative) {
             this.video.pause();
         }
