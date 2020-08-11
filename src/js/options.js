@@ -57,11 +57,11 @@ export default (options) => {
         },
         {
             text: 'About author',
-            link: 'https://diygod.me',
+            link: 'https://www.witchen.cn',
         },
         {
             text: `DPlayer v${DPLAYER_VERSION}`,
-            link: 'https://github.com/MoePlayer/DPlayer',
+            link: 'https://github.com/Chaney1024/DPlayer',
         },
     ]);
 

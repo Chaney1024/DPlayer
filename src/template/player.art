@@ -5,6 +5,9 @@
     <div class="dplayer-logo">
         <img src="{{ options.logo }}">
     </div>
+    <div class="dplayer-showing">
+        {{@ icons.bplay }}
+    </div>
     {{ /if }}
     <div class="dplayer-danmaku"{{ if options.danmaku && options.danmaku.bottm }} style="margin-bottom:{{ options.danmaku.bottm }}"{{ /if }}>
         <div class="dplayer-danmaku-item dplayer-danmaku-item--demo"></div>

@@ -118,6 +118,9 @@
                 }
             }
         }
+        .dplayer-showing{
+            display: none!important;
+        }
     }
 
     &.dplayer-loading {
