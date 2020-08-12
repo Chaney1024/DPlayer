@@ -181,8 +181,8 @@ class DPlayer {
      */
     play(fromNative) {
         this.paused = false;
-        if (this.video.paused && !utils.isMobile) {
-            this.bezel.switch(Icons.play);
+        if (this.video.paused && utils.isMobile) {
+            this.controller.hide();
         }
 
         this.template.playButton.innerHTML = Icons.pause;
