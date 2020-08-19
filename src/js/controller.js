@@ -54,7 +54,7 @@ class Controller {
                 this.player.toggle();
             });
             this.player.template.controllerMask.addEventListener('click', () => {
-                this.player.pause();
+                this.player.toggle();
             });
         } else {
             this.player.template.videoWrap.addEventListener('click', () => {
